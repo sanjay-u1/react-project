@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right top, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4); 
+}
+.Header{
+    background-color: #ffffff;
+    color: #212529;
+}
+.banner-section {
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4, #7757f4);
+}
+.product-image {
+    height: 200px;
+    object-fit: contain;
+}
+.slick-prev:before, .slick-next:before {
+    color: #212529 !important;
+}
+* {
+    text-transform: capitalize !important;
+}
+.btn-adjust{
+    border-radius:20px;
+    background-color:black;
+    color: #ffffff;
+}
+.shop{
+    color: black;
+    text-decoration: none;
+}
+.shop:hover{
+    color: #fff;
+}
